@@ -10,7 +10,7 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import java.io.*;
 import android.app.*;
@@ -21,6 +21,9 @@ import android.view.*;
 import android.widget.*;
 import android.os.*;
 import android.media.*;
+import com.midisheetmusic.midi.model.MidiFile;
+import com.midisheetmusic.midi.model.MidiFileException;
+import com.midisheetmusic.midi.model.MidiOptions;
 
 
 /** @class MidiPlayer

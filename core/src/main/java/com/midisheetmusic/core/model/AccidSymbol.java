@@ -15,7 +15,7 @@ package com.midisheetmusic.core.model;
 
 
 import android.graphics.*;
-import com.midisheetmusic.SheetMusic;
+import com.midisheetmusic.app.android.SheetMusic;
 
 
 /** @class AccidSymbol

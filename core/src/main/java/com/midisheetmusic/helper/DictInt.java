@@ -11,7 +11,7 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.helper;
 
 
 /**@class DictInt
@@ -36,7 +36,7 @@ public class DictInt {
     }
 
     /** Increase the capacity of the key/value arrays  */
-    private void resize() {
+    public void resize() {
         int newcapacity = keys.length * 2;
         int[] newkeys = new int[newcapacity];
         int[] newvalues = new int[newcapacity];
@@ -110,7 +110,7 @@ public class DictInt {
 
 
     /** Get the value for the given key. */
-    int get(int key) {
+    public int get(int key) {
         if (contains(key)) {
             return values[lastpos];
         }
@@ -120,12 +120,12 @@ public class DictInt {
     }
 
     /** Return the number of key/value pairs */
-    int count() {
+    public int count() {
         return size;
     }
 
     /** Return the key at the given index */
-    int getKey(int index) {
+    public int getKey(int index) {
         return keys[index];
     }
 

@@ -10,10 +10,10 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.core.model;
 
 
-import com.midisheetmusic.core.model.*;
+import com.midisheetmusic.helper.ListInt;
 
 /** @class KeySignature
  * The KeySignature class represents a key signature, like G Major

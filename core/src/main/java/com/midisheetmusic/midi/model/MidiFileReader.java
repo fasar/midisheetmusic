@@ -11,11 +11,9 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.midi.model;
 
 import java.io.*;
-import android.util.*;
-
 
 
 /** @class MidiFileReader

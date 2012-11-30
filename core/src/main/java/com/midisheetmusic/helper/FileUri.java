@@ -17,7 +17,7 @@ import android.content.res.*;
 import java.io.*;
 import java.util.*;
 import android.net.*;
-import com.midisheetmusic.MidiFileException;
+import com.midisheetmusic.midi.model.MidiFileException;
 
 
 /** @class FileUri

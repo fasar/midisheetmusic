@@ -11,8 +11,10 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
+//TODO: move to com.midisheetmusic.app.android package
 
+import com.midisheetmusic.helper.DictInt;
 import com.midisheetmusic.core.model.BarSymbol;
 import com.midisheetmusic.core.model.LyricSymbol;
 import com.midisheetmusic.core.model.MusicSymbol;

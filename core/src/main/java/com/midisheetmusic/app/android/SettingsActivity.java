@@ -11,7 +11,7 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import android.app.*;
 import android.content.*;
@@ -20,6 +20,8 @@ import android.preference.*;
 import android.graphics.*;
 import android.graphics.drawable.ColorDrawable;
 import com.midisheetmusic.core.model.TimeSignature;
+import com.midisheetmusic.midi.model.MidiFile;
+import com.midisheetmusic.midi.model.MidiOptions;
 
 
 /** @class SettingsActivity

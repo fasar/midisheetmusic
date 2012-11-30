@@ -14,7 +14,9 @@ package com.midisheetmusic.core.model;
 
 import java.util.*;
 import android.graphics.*;
-import com.midisheetmusic.*;
+import com.midisheetmusic.app.android.SheetMusic;
+import com.midisheetmusic.midi.model.MidiNote;
+import com.midisheetmusic.midi.model.MidiOptions;
 
 
 /** @class ChordSymbol

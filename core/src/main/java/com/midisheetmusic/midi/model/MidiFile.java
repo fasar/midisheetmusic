@@ -11,12 +11,13 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.midi.model;
 
 import java.io.*;
 import java.util.*;
 
 import com.midisheetmusic.core.model.TimeSignature;
+import com.midisheetmusic.helper.ListInt;
 
 /** @class Pair - A pair of ints */
 class PairInt {

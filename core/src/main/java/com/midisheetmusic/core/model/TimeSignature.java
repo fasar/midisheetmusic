@@ -12,8 +12,7 @@
 
 package com.midisheetmusic.core.model;
 
-import com.midisheetmusic.MidiFileException;
-import com.midisheetmusic.core.model.NoteDuration;
+import com.midisheetmusic.midi.model.MidiFileException;
 
 import java.io.*;
 

@@ -10,7 +10,7 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import java.io.*;
 import java.net.*;
@@ -22,6 +22,10 @@ import android.graphics.*;
 import android.content.*;
 import android.content.res.*;
 import android.media.*;
+import com.midisheetmusic.app.guiHelper.ClefSymbol;
+import com.midisheetmusic.midi.model.MidiFile;
+import com.midisheetmusic.midi.model.MidiFileException;
+import com.midisheetmusic.midi.model.MidiOptions;
 
 import java.util.zip.CRC32;
 

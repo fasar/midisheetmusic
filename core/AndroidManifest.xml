@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.midisheetmusic" 
+          package="com.midisheetmusic.app.android" 
           android:versionCode="8" 
           android:versionName="2.5.1">
 
@@ -24,7 +24,7 @@
         </activity>
         <activity android:name=".HelpActivity" >
         </activity>
-        <activity android:name=".SheetMusicActivity" 
+        <activity android:name=".SheetMusicActivity"
                   android:screenOrientation="landscape"
                   android:configChanges="orientation"
         >

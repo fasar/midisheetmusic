@@ -12,7 +12,7 @@
 
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.midi.model;
 
 
 /** @class MidiFileException

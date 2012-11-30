@@ -11,7 +11,7 @@
  */
 
 
-package com.midisheetmusic;
+package com.midisheetmusic.midi.model;
 
 import java.io.*;
 
@@ -229,7 +229,7 @@ public class MidiOptions implements Serializable {
 
 
     /* Merge in the saved options to this MidiOptions.*/
-    void merge(MidiOptions saved) {
+    public void merge(MidiOptions saved) {
         if (saved.tracks.length == tracks.length) {
             for (int i = 0; i < tracks.length; i++) {
                 tracks[i] = saved.tracks[i];

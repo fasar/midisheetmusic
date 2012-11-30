@@ -10,11 +10,13 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import android.preference.*;
 import android.view.*;
 import android.content.*;
+import com.midisheetmusic.app.android.ColorDialog;
+import com.midisheetmusic.app.guiHelper.ColorChangedListener;
 
 /** @class ColorPreference
  *  The ColorPreference is used in a PreferenceScreen to let

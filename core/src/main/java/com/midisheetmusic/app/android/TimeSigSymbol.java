@@ -10,11 +10,12 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import android.graphics.*;
 import android.content.*;
 import android.content.res.*;
+import com.midisheetmusic.app.android.SheetMusic;
 import com.midisheetmusic.core.model.MusicSymbol;
 
 

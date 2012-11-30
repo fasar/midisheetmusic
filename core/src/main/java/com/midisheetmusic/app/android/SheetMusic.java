@@ -10,7 +10,7 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import java.util.*;
 import java.io.*;
@@ -20,7 +20,10 @@ import android.graphics.*;
 import android.os.*;
 import android.view.*;
 import android.view.animation.AnimationUtils;
+import com.midisheetmusic.app.guiHelper.ClefSymbol;
 import com.midisheetmusic.core.model.*;
+import com.midisheetmusic.helper.ListInt;
+import com.midisheetmusic.midi.model.*;
 
 /** @class BoxedInt **/
 class BoxedInt {

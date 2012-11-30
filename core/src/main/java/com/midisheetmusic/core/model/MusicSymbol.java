@@ -12,6 +12,7 @@
 
 
 package com.midisheetmusic.core.model;
+//TODO: Suppr the dependence of Pain and Canvas in this class
 
 import android.graphics.*;
 

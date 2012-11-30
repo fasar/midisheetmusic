@@ -10,7 +10,7 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -10,7 +10,7 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -18,6 +18,7 @@ import android.view.*;
 import android.widget.*;
 import android.content.*;
 import android.content.res.*;
+import com.midisheetmusic.app.guiHelper.ClefSymbol;
 
 
 /** @class MidiSheetMusicActivity

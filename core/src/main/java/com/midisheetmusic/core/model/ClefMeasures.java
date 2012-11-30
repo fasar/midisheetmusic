@@ -13,7 +13,7 @@
 
 package com.midisheetmusic.core.model;
 
-import com.midisheetmusic.MidiNote;
+import com.midisheetmusic.midi.model.MidiNote;
 
 import java.util.*;
 

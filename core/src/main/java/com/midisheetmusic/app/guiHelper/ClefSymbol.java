@@ -10,12 +10,12 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.guiHelper;
 
 import android.graphics.*;
 import android.content.*;
 import android.content.res.*;
-import com.midisheetmusic.SheetMusic;
+import com.midisheetmusic.app.android.SheetMusic;
 import com.midisheetmusic.core.model.Clef;
 import com.midisheetmusic.core.model.MusicSymbol;
 
@@ -48,8 +48,8 @@ public class ClefSymbol implements MusicSymbol {
     public static void LoadImages(Context context) {
         if (treble == null || bass == null) {
             Resources res = context.getResources();
-            treble = BitmapFactory.decodeResource(res, R.drawable.treble);
-            bass = BitmapFactory.decodeResource(res, R.drawable.bass);
+            treble = BitmapFactory.decodeResource(res, com.midisheetmusic.app.android.R.drawable.treble);
+            bass = BitmapFactory.decodeResource(res, com.midisheetmusic.app.android.R.drawable.bass);
         }
     }
 

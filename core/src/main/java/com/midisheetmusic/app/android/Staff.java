@@ -10,11 +10,14 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import java.util.*;
 import android.graphics.*;
+import com.midisheetmusic.app.android.SheetMusic;
+import com.midisheetmusic.app.guiHelper.ClefSymbol;
 import com.midisheetmusic.core.model.*;
+import com.midisheetmusic.midi.model.MidiOptions;
 
 
 /* @class Staff

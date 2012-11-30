@@ -10,13 +10,18 @@
  *  GNU General Public License for more details.
  */
 
-package com.midisheetmusic;
+package com.midisheetmusic.app.android;
 
 import java.util.*;
 import android.content.*;
 import android.util.*;
 import android.graphics.*;
 import android.view.*;
+import com.midisheetmusic.app.android.MidiPlayer;
+import com.midisheetmusic.midi.model.MidiFile;
+import com.midisheetmusic.midi.model.MidiNote;
+import com.midisheetmusic.midi.model.MidiOptions;
+import com.midisheetmusic.midi.model.MidiTrack;
 
 
 /** @class Piano
@@ -158,7 +163,7 @@ public class Piano extends SurfaceView implements SurfaceHolder.Callback {
      *  and StartTime (in pulses), so we know which notes to shade given the
      *  current pulse time.
      */
-    public void SetMidiFile(MidiFile midifile, MidiOptions options, 
+    public void SetMidiFile(MidiFile midifile, MidiOptions options,
                             MidiPlayer player) {
         if (midifile == null) {
             notes = null;
