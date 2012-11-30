@@ -1,4 +1,6 @@
-midisheetmusic
+MidiSheetMusic
 ==============
 
-Source of a project to read a sheet
+MidiSheetMusic print and play musical notes from a midi file.
+
+Original repository are at : http://midisheetmusic.sourceforge.net
